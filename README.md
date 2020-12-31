@@ -18,5 +18,6 @@ Our initial goal wasa 95% accuracy, and after using EfficientNet b5 we were able
 - [PyTorch](https://pytorch.org/get-started/locally/) using CUDA.
 - [EfficientNet](https://pypi.org/project/efficientnet-pytorch/) for PyTorch.
 - Main packages: Sklearn, Matplotlib, Seaborn, NumPy, and Pandas.
+- [Image data](https://www.kaggle.com/c/plant-pathology-2020-fgvc7/data).
 
 **submission3.csv** contains the predictions using the EfficientNet b5 model trained for 30 epochs. This resulted in a 95.9% testing accuracy. Note that the checkpoint containing the model state_dict could not be uploaded since it is around 350 MB. [Click here](https://drive.google.com/drive/folders/1qPAkrDkLgOGlSVm_I-g8QLYljSj7584L?usp=sharing) for link to Google Drive folder containing the model parameters. 
