@@ -1,3 +1,3 @@
 # Plant Pathology Project
 
-<img src="/image/header.png" width="350">
+<img src="/Image/header.png" width="350">
