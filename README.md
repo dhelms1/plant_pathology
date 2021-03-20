@@ -22,14 +22,14 @@ The original data for this project came from the [Kaggle](https://www.kaggle.com
 
 Training data was augmented (see notebook for details about alterations) but validation/testing data was only resized, normalized, and converted to Tensors. Below is the final format of the data:
 
-<img src="/Image/data_aug.jpg" width="400">
+<img src="/Image/data_aug.jpg" width="600">
 
 *Requested cite: https://arxiv.org/abs/2004.11958*
 
 ---
 
 ## Modeling:
-*To be filled in...* [EfficientNet](https://pypi.org/project/efficientnet-pytorch/) for PyTorch.
+*To be filled in...* [EfficientNet](https://pypi.org/project/efficientnet-pytorch/)
 
 ---
 
