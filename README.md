@@ -33,13 +33,13 @@ Transfer learning was implemented for both models used in this notebook, one bei
 
 Looking first at the **MobileNet v2** model we have the following results after training and validating:
 
-<img src="/Image/mobilenet.jpg" width="600">
+<img src="/Image/mobilenet.jpg" width="750">
 
 We can see the training loss (blue line) seemed to even out around 0.5 after 10 epochs, as well as the validation loss staying near 0.3. Similarly, the training accuracy (blue line) seemed to increase to around 83% as our epochs increased as well as the validation accuracy averaging about 87% as the epochs increased.
 
 Looking first at the **EfficientNet b5** model we have the following results after training and validating:
 
-<img src="/Image/mobilenet.jpg" width="600">
+<img src="/Image/efficient.jpg" width="750">
 
 We can see the training loss (blue line) seemed to even out around 0.4 after 15 epochs, as well as the validation loss staying near 0.2 to 0.3. Similarly, the training accuracy (blue line) seemed to continue increasing as our epochs grew, reaching around 88%.  The validation accuracy was averaging about 93% after the 18th epoch, with a slight dip on the 27th epoch (where the loss also spiked). 
 
