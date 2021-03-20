@@ -46,7 +46,7 @@ We can see the training loss (blue line) seemed to even out around 0.4 after 15 
 ### Conclusion
 The EfficientNet model seemed to be performing better on the training and validation set, and after using the model to predict on the testing set we could see it had around a 4% accuracy advantage over the MovileNet model. An important note is that for submission 2 below, the EfficientNet model was trained for the same epochs as the MobileNet model (25 epochs) but after seeing it performed better on the testing data, we retrained and extended the number of epochs for submission 3. The difference in computational speed was also quick large, with MobileNet taking around 2 minutes to predict while EfficientNet took around 19 minutes on the 1821 test images. This will be important to keep in mind if we were worried about response time in an application (but is not a large concern for just the notebook).
 
-<img src="/Image/results.jpg" width="700">
+<img src="/Image/results.jpg" width="350">
 
 ---
 
